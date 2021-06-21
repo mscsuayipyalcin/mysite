@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Book List</title>
+</head>
+<body>
+<h2>Book List</h2>
+{% for kitap in kitaplar %}
+
+<font color="red">{{kitap.yazar}}</font>, {{kitap.name}},
+
+{% endfor%}
+</body>
+</html>
